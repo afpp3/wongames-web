@@ -4,5 +4,5 @@ import { render, RenderResult } from '@testing-library/react'
 import theme from 'styles/theme'
 import React from 'react'
 
-export const renderWithTHeTheme = (children: React.ReactNode): RenderResult =>
+export const renderWithTheme = (children: React.ReactNode): RenderResult =>
   render(<ThemeProvider theme={theme}>{children}</ThemeProvider>)
